@@ -220,7 +220,7 @@ public class Login extends javax.swing.JFrame {
         }
 
         if (loginSuccessful) {
-            JOptionPane.showMessageDialog(this, "Login exitoso con el usuario " + inputUser + " y la id " + clienteId);
+            JOptionPane.showMessageDialog(this, "Login exitoso con el usuario " + inputUser);
             Main m = new Main();
             m.setVisible(true);
             this.dispose();
